@@ -1,0 +1,315 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.text-shadow{
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.short-para{
+    color: #444343;
+    line-height: 26px;
+    margin: 25px 0;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 3rem;
+    text-align: center;
+
+}
+
+.btn-primary {
+    background: white;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: 0;
+    color:  #005FAC;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+/* header banner styles */
+header{
+    background-image: url('images/banner/banner3.png');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 160px;
+}
+
+#banner{
+    display: flex;
+    justify-content: right;
+}
+.top-btn{
+    background: white;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: 0;
+    color:  #005FAC;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.top-content{
+    width: 525px;
+    text-align: right;
+    margin-top: 200px;
+    color: white;
+
+}
+.top-title{
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 4.75rem;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.description {
+    color: white;
+    line-height: 26px;
+    margin: 24px 0;
+}
+
+/* What I learned section styles */
+
+.learning{
+    width: 1072px;
+    height: 723.3px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+.learning h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.lrn-msg{
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.lrn-msg p{
+    color: #444343;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+
+/* failure section styles */
+.my-failure{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.failure-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.failure-msg{
+    width: 420px;
+    height: 400px;
+}
+
+.fail-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 3rem;
+    width: 280px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    color: #444343;
+}
+
+ul li:before {
+    content: '✓';
+    color: green;
+    font-size: 25px;
+}
+.fail-list li{
+    margin-top: 10px;
+}
+
+/* my plans styles */
+.plans {
+    display: flex;
+    float: left;
+
+}
+
+.plans h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.plans p {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.my-plans {
+    text-align: center;
+    font-size: 40px;
+}
+
+#future-plans {
+    margin-top: 130px;
+}
+
+#my-plans {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.planing-logo {
+    width: 100px;
+    padding: 42px;
+
+}
+
+.icon-text-align {
+
+    text-align: center;
+    padding: 25px;
+}
+/* bonus gradient styles */
+.bonus-gradient{
+    background-image:
+        linear-gradient(-90deg, rgba(241, 93, 34, 0), rgb(0, 60, 255)),
+        url('images/watch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 130px 0;
+    border-radius: 10px;
+}
+.bonus-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 3rem;
+    color: #FFFFFF;
+    width: 459px;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.bonus-content{
+    padding: 60px 65px;
+}
+
+/* footer styles */
+
+footer {
+    background: #151414;
+    padding-top: 100px;
+}
+.footer-contents {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+/* left side */
+.left-side {
+    width: 485px;
+    height: 317px;
+}
+
+
+
+.footer-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #f8f8f8;
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.social-icons {
+    margin-top: 32px;
+}
+
+.social-icons a {
+    padding-right: 18px;
+
+}
+/* right side */
+.right-side {
+    width: 325px;
+    height: 204px;
+}
+
+.footer-second-title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 15px 30px;
+    outline: none;
+    width: 325px;
+
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    margin-top: 15px;
+}
+
+input::placeholder {
+    color: #f3f3f3;
+    font-size: 14px;
+}
+
+.right-side input[type="submit"] {
+    background: #005fac;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 18px;
+    width: 170.11px;
+    height: 64px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+
+#credit {
+    padding: 25px;
+    text-align: center;
+    color: rgba(169, 169, 169, 0.158);
+}
